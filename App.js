@@ -3,13 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import Explore from './Components/Explore';
 import { Profile } from './Components/Profile';
 import { NavigationContainer } from '@react-navigation/native';
-// import Home from './Components/Home';
+import Home from './Components/Home';
+
 export default function App() {
   return (
     <NavigationContainer>
       <View style={styles.container}>
         <Explore />
-        {/* <Home/> */}
+        <Home/>
         <Profile />
         <StatusBar style="auto" />
       </View>
